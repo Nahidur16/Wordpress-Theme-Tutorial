@@ -50,6 +50,7 @@ function ju_eneque()
 //////////////////////////////SHOW MENU
 function ju_setup_theme()
 {
+    add_theme_support('post-thumbnails');
     register_nav_menu('primary', __('primary_menu', 'tutorial'));
 }
 function ju_widgets()
